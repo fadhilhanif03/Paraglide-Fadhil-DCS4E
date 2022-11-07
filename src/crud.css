@@ -1,0 +1,90 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  margin: auto;
+  max-width: 38rem;
+  padding: 0;
+  background-image: url('https://www.campingsannecy.com/ressources/medias/1356-blog_page_bloc_element-flyeo-parapente-biplace-parapente-vue-sur-le-lac-dannecy-min-1-jpeg-1800x925.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: center;
+}
+
+.mainWrapper{
+  margin: 25px;
+}
+
+h1 {
+  color: rebeccapurple;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.kaler {
+  color: darkblue;
+}
+
+.loginbox {
+  padding-top: 70px;
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: aquamarine;
+}
+
+input {
+  padding: 20px 20px;
+  border: solid lightseagreen;
+  border-radius: 20px 20px;
+  font-family: 'Poppins', cursive;
+  background-color: whitesmoke;
+}
+
+textarea {
+  padding: 20px 20px;
+  border: solid lightseagreen;
+  border-radius: 20px 20px;
+  font-family: 'Poppins', cursive;
+  background-color: whitesmoke; 
+  width: 50%;
+}
+
+.btn {
+  cursor: pointer;
+  border: solid chartreuse;
+  border-radius: 10px 10px;
+  width: 20%;
+  height: 6vh;
+  background-color: lightgreen;
+  font-family: 'Poppins', cursive;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.btn:hover {
+  border: solid chartreuse;
+  background-color: whitesmoke;
+  color: darkcyan;
+}
+
+.btnback {
+  cursor: pointer;
+  border: solid chartreuse;
+  border-radius: 10px 10px;
+  width: 30%;
+  height: 6vh;
+  background-color: lightgreen;
+  font-family: 'Poppins', cursive;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.btnback:hover {
+  border: solid chartreuse;
+  background-color: whitesmoke;
+  color: darkcyan;
+}

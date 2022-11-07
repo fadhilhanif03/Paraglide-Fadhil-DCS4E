@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Safe Paraglide</title>
+
+    <link rel="stylesheet" href="index.css" />
+
+    <!--Font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <img src="https://assets.evcdn.net/pim-assets-images/72798/5e9f0c0bcabe5.jpeg" class="imgheader">
+    
+    <div class="content">
+      <h1>Safe Paraglide</h1>
+      <h3>Ensure condition of Paraglide activity, whether it's safe or not.</h3>
+      <input type="text" placeholder="Search Your Location" id="paraglide_input">
+      <br><br>
+      <button onclick="buttonClicked()" class="button1"> Search</button>
+      <a href="crud.html"><button class="button2">Create Paraglide Planner</button></a>
+
+      <script src="main.js"></script>
+
+      <br><br>
+      <div class="container">
+        <!--Output import from API -->
+        <p id="para"></p>
+        <p id="windspeed"></p>
+        <p id="temperature"></p>
+        <p id="humi"></p>
+        <p id="press"></p>
+        <p id="cond"></p>
+        <p id="desc"></p>
+        <p id="visi"></p>
+      </div>
+      <br><br>
+    </div>
+
+    <div class="info">
+      <h2>Best Paragliding Spot</h2>
+      <div>
+        <img class="img1" src="https://www.holidify.com/images/cmsuploads/compressed/BukitKokol_20200305123808.jpg">
+        <p class="info1img1">Bukit Kokol, Menggatal, Sabah</p>
+        <p class="info2img1">The take-off base is located at around 822 meters above sea level. You can even book certified tandem paragliders beforehand.</p>
+        <p class="info2img1">Duration of flight: 15- 20 minutes</p>
+        <p class="info2img1">Cost: RM 250 for Malaysians and RM 350 for non Malaysians</p>
+        <p class="info2img1">Altitude: 1000 meters</p>
+        <br><br>
+
+        <img class="img1" src="https://images.says.com/uploads/story_source/source_image/947365/59fc.jpg">
+        <p class="info1img1">Bukit Bubus, Besut, Terengganu</p>
+        <p class="info2img1">Bukit Bubus Paragliding Park (formerly known as Kota Putera Paragliding Park),</p>
+        <p class="info2img1">located 90 minutes away from Kuala Terengganu city, is a popular paragliding spot on the East Coast for its breathtaking views by the sea.</p>
+        <p class="info2img1">Duration of flight: Five to 10 minutes</p>
+        <p class="info2img1">Cost: RM250 (The park currently has a RM150 pandemic promotion)</p>
+        <p class="info2img1">Elevation: 300m</p>
+
+      </div>
+    </div>
+  </body>
+</html>

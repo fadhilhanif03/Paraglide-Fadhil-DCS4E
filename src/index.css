@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i0.wp.com/www.paragliders.my/wp-content/uploads/2022/08/AndreBandarra.png?fit=1588%2C894&ssl=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: center;
+}
+
+.imgheader {
+  width: 100%;
+  height: 40%;
+}
+
+.content {
+  padding-left: 50px;
+  float: left;
+  font-family: 'Roboto Condensed', sans-serif;;
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color:rgb(3, 113, 113);
+  padding-top: 40px;
+}
+
+h3 {
+  color:brown;
+}
+
+input {
+  padding: 20px 20px;
+  border: solid darkcyan;
+  border-radius: 20px 20px;
+  width: 65%;
+  height: 0.5vh;
+  background-color: aquamarine;
+  font-family: 'Poppins', cursive;
+}
+
+input:hover {
+  border: solid rgb(144, 135, 135);
+  background-color: whitesmoke;
+}
+
+.button1 {
+  cursor: pointer;
+  border: solid darkcyan;
+  border-radius: 10px 10px;
+  width: 20%;
+  height: 6vh;
+  margin-left: 30px;
+  background-color: cornflowerblue;
+  font-family: 'Poppins', cursive;
+  font-weight: 400;
+}
+
+.button1:hover {
+  border: solid lightcoral;
+  background-color: brown;
+  color: whitesmoke;
+}
+
+.button2 {
+  cursor: pointer;
+  border: solid darkcyan;
+  border-radius: 10px 10px;
+  width: 40%;
+  height: 6vh;
+  float: right;
+  margin-right: 140px;
+  background-color: cornflowerblue;
+  font-family: 'Poppins', cursive;
+  font-weight: 400;
+}
+
+.button2:hover {
+  border: solid lightcoral;
+  background-color: brown;
+  color: whitesmoke;
+}
+
+.container {
+  width: 70%;
+	background-color: lightgray;
+  border: solid brown;
+	border-radius: 20px;
+	box-shadow: 0px 30px 50px #1687d933;
+	align-items: center;
+	margin: auto;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+  padding-left: 30px;
+}
+
+.info {
+  float: right;
+  padding-top: 30px;
+  margin-right: 50px;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color:burlywood;
+}
+
+.img1 {
+  width: 30%;
+  height: 30%;
+}
+
+.info1img1 {
+  font-size: 30px;
+  font-weight: 200;
+  font-family: 'Poppins', cursive;
+  color: whitesmoke;
+}
+
+.info2img1 {
+  font-size: 15px;
+  font-weight: 400;
+  font-family:'Times New Roman', Times, serif;
+  color: whitesmoke;
+}
